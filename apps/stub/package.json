@@ -1,0 +1,16 @@
+{
+  "name": "open-api-stub-container_stub",
+  "version": "0.0.0",
+  "description": "Stub Application from Open API Specification",
+  "main": "index.js",
+  "scripts": {
+    "dev": "env-cmd -f .env prism mock $OPEN_API_SPEC_PATH -r"
+  },
+  "author": "pa-y-kunimoto",
+  "dependencies": {
+    "@stoplight/prism-cli": "4.14.1"
+  },
+  "devDependencies": {
+    "env-cmd": "10.1.0"
+  }
+}
