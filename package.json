@@ -1,19 +1,17 @@
 {
-	"name": "open-api-stub-container",
-	"description": "",
-	"author": "pa-y-kunimoto",
-	"workspaces": [
-		"apps/**",
-		"packages/**"
-	],
-	"scripts": {
-		"format": "biome format --write ./",
-		"lint": "biome lint --write ./",
-		"prepare": "husky",
+  "name": "open-api-stub-container",
+  "description": "",
+  "author": "pa-y-kunimoto",
+  "private": true,
+  "workspaces": ["apps/**", "packages/**"],
+  "scripts": {
+    "format": "biome format --write ./",
+    "lint": "biome lint --write ./",
+    "prepare": "husky",
     "postinstall": "npm run prepare"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "1.9.4",
-		"husky": "9.1.6"
-	}
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "husky": "9.1.6"
+  }
 }

@@ -1,6 +1,6 @@
 {
-	"editor.defaultFormatter": "biomejs.biome",
-	"files.autoSave": "afterDelay",
-	"files.encoding": "utf8",
-	"files.eol": "\n"
+  "editor.defaultFormatter": "biomejs.biome",
+  "files.autoSave": "afterDelay",
+  "files.encoding": "utf8",
+  "files.eol": "\n"
 }
